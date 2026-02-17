@@ -56,5 +56,9 @@ public class MahasiswaMain09 {
         mhs2.updateIpk(3.30);
 
         mhs2.tampilkanInformasi();
+
+        Mahasiswa mhsFufufafa = new Mahasiswa("Fufufafa","6767676767",2.90,"XX 67");
+
+        mhsFufufafa.tampilkanInformasi();
     }
 }

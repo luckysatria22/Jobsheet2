@@ -4,14 +4,6 @@ public class Mahasiswa09 {
     String kelas;
     double ipk;
 
-    // Konstruktor Default
-    public Mahasiswa09() {
-        nama = "";
-        nim = "";
-        kelas = "";
-        ipk = 0.0;
-    }
-
     // Konstruktor Berparameter
     public Mahasiswa09(String nama, String nim, String kelas, double ipk) {
         this.nama = nama;
