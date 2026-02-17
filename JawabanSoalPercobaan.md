@@ -19,3 +19,10 @@ Method (Behavior) — merupakan fungsi atau prosedur yang mendefinisikan perilak
     }
 }
 5. Method nilaiKinerja(double ipk) menerima parameter ipk bertipe double, kemudian melakukan pengecekan bertingkat menggunakan if-else untuk menentukan kategori kinerja, lalu mengembalikan (return) nilai String berupa kategori tersebut. Method nilaiKinerja() me-return-kan nilai bertipe String berupa salah satu dari: "Dengan Pujian", "Sangat Memuaskan", "Memuaskan", "Cukup", atau "Kurang" sesuai dengan nilai IPK yang dimasukkan sebagai parameter.
+
+Percobaan 2
+1. Mahasiswa mhs1 = new Mahasiswa();
+2. Menggunakan operator titik (.) dengan format:
+  Atribut → namaObject.namaAtribut = nilai;
+  Method → namaObject.namaMethod();
+3. Karena di antara dua pemanggilan tampilkanInformasi(), atribut object mhs1 sudah diubah oleh method ubahKelas() dan updateIpk():
