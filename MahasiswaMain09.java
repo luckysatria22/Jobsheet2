@@ -20,6 +20,18 @@ public class MahasiswaMain09 {
         void updateIpk(double ipkBaru) {
             ipk = ipkBaru;
         }
+
+        // Default constructor
+        Mahasiswa() {
+        }
+
+        // Constructor with parameters
+        Mahasiswa(String nama, String nim, double ipk, String kelas) {
+            this.nama = nama;
+            this.nim = nim;
+            this.ipk = ipk;
+            this.kelas = kelas;
+        }
     }
 
     public static void main(String[] args) {
@@ -38,5 +50,11 @@ public class MahasiswaMain09 {
         mhs1.updateIpk(mhs1.ipk);
 
         mhs1.tampilkanInformasi();
+
+        Mahasiswa mhs2 = new Mahasiswa("Annisa Nabila","2141720160",3.25,"TI 2L");
+
+        mhs2.updateIpk(3.30);
+
+        mhs2.tampilkanInformasi();
     }
 }
